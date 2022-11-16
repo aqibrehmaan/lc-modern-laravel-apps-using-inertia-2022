@@ -4,17 +4,16 @@
     <p>In this series, we will use the following frameworks:</p>
 
     <Nav />
-  </template>
+</template>
 
-  <script>
+<script>
+import Nav from "../Shared/Nav";
 
-import Nav from '../Shared/Nav';
-
-  export default {
+export default {
     props: {
-      name: String,
-      frameworks: Array,
+        name: String,
+        frameworks: Array,
     },
     components: { Nav },
-  };
-  </script>
+};
+</script>

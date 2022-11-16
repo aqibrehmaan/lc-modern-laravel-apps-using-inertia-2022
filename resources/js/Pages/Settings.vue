@@ -1,12 +1,12 @@
 <template>
-    <h1>Settings</h1>
+  <h1>Settings</h1>
 
-    <Nav />
-  </template>
+  <Nav />
+</template>
 
   <script>
-  import Nav from '../Shared/Nav';
-  export default {
-    components: { Nav },
-  };
-  </script>
+import Nav from "../Shared/Nav";
+export default {
+  components: { Nav },
+};
+</script>
