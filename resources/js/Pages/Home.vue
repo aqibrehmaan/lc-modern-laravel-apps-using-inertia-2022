@@ -1,19 +1,13 @@
 <template>
-    <h1>Home</h1>
-
-    <p>In this series, we will use the following frameworks:</p>
-
-    <Nav />
+    <Layout>
+        <h1 class="text-3xl">Home</h1>
+    </Layout>
 </template>
 
 <script>
-import Nav from "../Shared/Nav";
+import Layout from "../Shared/Layout";
 
 export default {
-    props: {
-        name: String,
-        frameworks: Array,
-    },
-    components: { Nav },
+    components: { Layout },
 };
 </script>
